@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+:root {
+    font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+    color: #17251f;
+    background: #f7f8f4;
+    font-synthesis: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    background: #f7f8f4;
+}
+
+button,
+input,
+select {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+.font-display {
+    font-family: 'Space Grotesk', 'DM Sans', sans-serif;
+}
+
+.grid-paper {
+    background-image: linear-gradient(#dce5df 1px, transparent 1px), linear-gradient(90deg, #dce5df 1px, transparent 1px);
+    background-size: 32px 32px;
+}
